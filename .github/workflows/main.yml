@@ -1,0 +1,14 @@
+name: Netflixcore
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Thre is no such thing as psychic
+      run: echo "Hey Divya, your pipeline is working perfectly!"
